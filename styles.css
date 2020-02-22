@@ -2,9 +2,33 @@ h1 {
   color: rgb(87, 87, 87);
   text-align: center;
   font-size: 45px;
+  margin-bottom:0px;
 }
 
 a {
   color: rgb(63, 219, 177);
-  text-decoration: none;
+}
+
+@media(min-width:700px) {
+  h1 {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1.5px solid blue;
+  }
+
+  .list{
+    margin-left: 50px;
+  }
+
+  .fircon{
+    border-left: 1.5px solid black;
+    border-left-color: blue;
+    padding-left: 15px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
 }
