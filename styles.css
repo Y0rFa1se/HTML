@@ -2,11 +2,16 @@ h1 {
   color: rgb(87, 87, 87);
   text-align: center;
   font-size: 70px;
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 a {
   color: rgb(63, 219, 177);
+}
+
+.list {
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
 @media(min-width:700px) {
@@ -17,17 +22,17 @@ a {
     border-bottom: 1.5px solid blue;
   }
 
-  .list{
+  .list {
     margin-left: 50px;
   }
 
-  .fircon{
+  .fircon {
     border-left: 1.5px solid black;
     border-left-color: blue;
     padding-left: 15px;
   }
 
-  #grid{
+  #grid {
     display: grid;
     grid-template-columns: 1fr 4fr;
   }
