@@ -1,0 +1,12 @@
+#title {
+  color: rgb(78, 78, 78);
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+}
+
+#index a{
+  text-decoration: none;
+  color: rgba(50, 198, 151, 0.9);
+}
